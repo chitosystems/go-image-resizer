@@ -34,7 +34,7 @@ You can make a request to the script, and it will return a JSON response with th
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'http://localhost:3000/?img=https://cdn.mafaro.online/assets/artists/36c25ec1d00ce0bd7e9a118af5806d5a.jpeg&w=300&h=300');
+curl_setopt($ch, CURLOPT_URL, 'http://localhost:3000/?img=https://domain.online/assets/d7e9a118af5806d5a.jpeg&w=300&h=300');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 $result = curl_exec($ch);
